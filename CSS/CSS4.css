@@ -1,0 +1,96 @@
+.div1{
+    border: 1 px red solid;
+    z-index: 1;
+    position: absolute;
+    width: 350;
+    height: 250;
+}
+
+.div2{
+    background-color: aqua;
+    z-index: 4;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+}
+
+.div3{
+    background-color: crimson;
+    z-index: 7;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+}
+
+.maindiv{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divflex{
+    background-color: blueviolet;
+    width: 70px;
+    height: 40px;
+}
+
+#a{
+    font-size: 5rem;
+}
+#b{
+font-size:5em;
+}
+
+#c{
+font-size:5vh;
+}
+#d{
+font-size:5vw;
+}
+#e{
+font-size:5px;
+}
+#f{
+font-size: 5%;
+}
+
+@media (min-width:1000px) {
+    body{
+        background-color: green;
+        font-size: 30px;
+
+    }
+    
+}
+
+@media (max-width:500px) {
+    body{
+        background-color: blue;
+        font-size: smaller;
+    }
+}
+
+h1::after{
+    content: "I have added this text through CSS url('/HTML/..')";
+    background-color: blueviolet;
+}
+p:after{
+    content: "this is done through CSS";
+}
+
+#one{
+    background-color: blueviolet;
+}
+
+.two{
+    background-color: burlywood;
+}
+
+.three:hover{
+    background-color: red;
+}
+
+p[title="four"]{
+    background-color: brown;
+}

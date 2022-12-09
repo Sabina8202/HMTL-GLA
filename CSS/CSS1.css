@@ -1,0 +1,41 @@
+#external{
+    color:brown
+}
+.paragraph{
+    font-size: medium;
+    background-color: crimson;
+}
+div{
+    color:blue
+}
+
+#London{
+
+    font-weight: bolder;
+    color: rgb(175, 208, 109);
+
+}
+#hsl{
+    color:hsl(360,50% , 100%);
+}
+#p1{
+    color: rgb(rgb(163, 85, 189), green, blue);
+
+}
+
+#p2{
+color:#03fcc2;
+}
+#p3{
+    color: hsl(50, 100%, 70%);
+
+}
+#londong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p4{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-variant: small-caps;
+
+}

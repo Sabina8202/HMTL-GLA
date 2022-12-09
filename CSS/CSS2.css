@@ -1,0 +1,38 @@
+/* BACKGROUND AND BORDER IN */
+.one{
+   background-image: url(/HTML/images/franceMap.jpg);
+   
+    
+}
+body{
+    background-color: blue;
+    /* background-image: url(/HTML/images/n1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: top; */
+}
+.two{
+    margin: 10% 10% 10% 10%;
+    padding: 25%;
+    /*
+    margin: 10px 10px 10px 10px;
+    padding: 25px;*/
+}
+
+.button{
+    background-color: yellow;
+    
+    height: 45px;
+    border: 1px solid;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.floatimage{
+    float: left;
+}

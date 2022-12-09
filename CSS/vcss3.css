@@ -1,0 +1,44 @@
+ul{
+    background-color: grey;
+    list-style-type: none;
+    width: 150px;
+    padding:0px;
+   text-align: center;
+    height: 200px;
+    position: fixed;
+    
+    
+}
+
+li a{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10%;
+   
+}
+
+li a:hover{
+    background-color: palevioletred;
+    color: black;
+    
+}
+
+.one , .two , .three{
+    display: block;
+    width: 150px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: orange;
+
+}
+.one:hover, .two:hover, .three:hover{
+background-color: black;
+cursor: pointer;
+color:white;
+}
+
+div a{
+text-decoration: none;
+}

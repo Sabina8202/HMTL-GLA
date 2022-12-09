@@ -1,0 +1,64 @@
+.div1{
+    width: 500px; 
+    height: 70px;
+    margin-bottom: -2em;
+}
+
+h1{
+    background-color: orange;
+}
+
+.div2{
+
+    background-color: rgb(41, 39, 80); 
+    width: 500px;
+    height: 370px;
+     color: yellow; 
+     text-align: center;
+
+     
+
+    
+     
+}
+table{
+    margin-top: -8em;
+}
+
+label{
+    
+    margin-bottom: 10%;
+}
+input{
+    margin-bottom: 5%;
+}
+
+
+.div3{
+    background-color: orange; 
+    width: 500px; 
+    height: 70px;
+}
+
+#login{
+    background-color: green ; 
+    color: white;
+    height: 40%;
+    border-radius: 20%;
+    border: 0px solid;
+    margin-right: 2%;
+    margin-left: 70%;
+    margin-top: 0%;
+    font-weight: bolder;
+   
+}
+
+#cancel{
+    background-color: red; 
+    color:azure;
+    height: 40%;
+    border-radius: 20%;
+    border: 0px solid;
+    font-weight: bolder;
+    
+}
